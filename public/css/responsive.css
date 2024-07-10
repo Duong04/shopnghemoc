@@ -1,0 +1,277 @@
+@media (min-width: 992px) {
+    .w-lg-1100 {
+        width: 950px;
+    }
+
+    .menu-2 {
+        display: none;
+    }
+
+    .modal-categories {
+        transform: translateX(-100%) !important;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .g-xl-50 {
+        gap: 40px;
+    }
+
+    .w-lg-1100 {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .w-1100 {
+        width: 950px;
+    }
+
+    .logo {
+        width: 230px;
+    }
+
+    .form-search {
+        width: 250px;
+    }
+
+    .idea-title {
+        width: 80%;
+    }
+
+    .idea {
+        max-height: 180px;
+    }
+
+    .standing a {
+        width: calc(100% / 5);
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .banner-3 {
+        display: grid !important;
+        grid-template-columns: repeat(4, 300px);
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+
+    .banner-2::-webkit-scrollbar,
+    .banner-3::-webkit-scrollbar {
+        width: 100%;
+        height: 5px;
+    }
+
+    .banner-2::-webkit-scrollbar-thumb,
+    .banner-3::-webkit-scrollbar-thumb {
+        background-color: #797979;
+    }
+
+    .banner-3>div {
+        width: 100%;
+    }
+
+    .banner-3 img {
+        width: 100%;
+    }
+
+    .brands-img a img {
+        height: 110px;
+    }
+
+    .social, .pay {
+        flex-wrap: wrap;
+    }
+
+    .news-img::before {
+        width: 50%;
+    }
+
+    .news-img::after {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+/* lg */
+@media (max-width: 992px) {
+    .w-1100 {
+        width: 705px;
+    }
+
+    .form-search,
+    .nav-right {
+        width: 100%;
+    }
+
+    .rouded-mw-lg-2 {
+        border-radius: 0.375rem;
+    }
+
+    .circle {
+        left: 32%;
+    }
+
+    .circle-animation {
+        left: 31.7%;
+    }
+
+    .idea {
+        max-height: 280px;
+    }
+
+    .banner-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        overflow-x: auto;
+    }
+
+    .banner-2>div {
+        width: 100%;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .carousel-height {
+        height: 300px;
+    }
+
+    .contact {
+        bottom: 75px;
+        display: none;
+        border-radius: 10px;
+        left: 50%;
+        right: auto;
+        box-shadow: 0 0 7px #ccc;
+        background-color: var(--white-color);
+        transform: translateX(-50%);
+    }
+
+    .contact>a {
+        background-color: var(--main-color);
+    }
+
+    .contact::before {
+        box-shadow: none;
+    }
+
+    .contact.active {
+        display: flex;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .w-1100 {
+        width: 525px;
+    }
+
+    .idea {
+        max-height: 220px;
+    }
+
+    .circle {
+        left: 45%;
+    }
+
+    .circle-animation {
+        left: 44.5%;
+    }
+
+    .standing {
+        display: grid;
+        grid-template-columns: repeat(10, 100px);
+        overflow-x: auto;
+    }
+
+    .standing a {
+        width: 100%;
+    }
+
+    .carousel-height {
+        height: 500px;
+    }
+
+    .menu-2 a {
+        padding: 0 20px;
+    }
+
+}
+
+/* sm */
+@media (max-width: 576px) {
+    .w-1100 {
+        width: 95%;
+    }
+
+    .idea {
+        max-height: 200px;
+    }
+
+    .circle {
+        left: 95%;
+    }
+
+    .circle-animation {
+        left: 94.5%;
+    }
+
+    .banner-2 {
+        grid-template-columns: repeat(3, 350px);
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-2 a {
+        padding: 0 10px;
+    }
+
+    .menu-2 a>i {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .logo {
+        width: 150px;
+    }
+
+    .nav-right {
+        width: 95%;
+    }
+
+    .form-search {
+        justify-content: flex-start;
+    }
+    
+    .form-search input {
+        width: 80%;
+    }
+
+    .form-search button {
+        width: 18%;
+    }
+
+    .menu-2 a {
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .carousel-height {
+        height: 350px;
+    }
+}
+
+@media (max-width: 355px) {
+    .products-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
